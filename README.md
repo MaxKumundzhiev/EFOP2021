@@ -11,5 +11,13 @@ EFOP2021  Neural Decision Trees
 TBD
 
 # Deployment
-TBD
+```bash
+$ conda create -n <name of environment> python=3.8 -y 
+$ conda activate <name of environment>
+$ pip install -r requirements.txt
+```
+## Download data
+```bash
+sh entrypoint.sh
+```
 
